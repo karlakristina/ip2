@@ -1,15 +1,5 @@
 <template>
   <div class="about">
-        <Objava naslov="Dobar" podnaslov="dan"></Objava>
+    <h1>This is an about page</h1>
   </div>
 </template>
-
-<script>
-import Objava from '../components/Objava.vue'
-
-export default {
-    components:{Objava},
-    name: 'About'
-  }
-
-</script>
